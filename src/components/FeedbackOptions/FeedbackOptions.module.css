@@ -1,0 +1,37 @@
+.btnWrapper{
+margin-top: 8px;
+
+display: grid;
+grid-template-rows:  40px;
+grid-template-columns:20% 20% 20% ;
+gap: 8px;
+
+
+justify-content: center;
+}
+
+.feedbackBtn{
+    height: auto;
+    padding: 10px 3px;
+    /* margin-left: 10px; */
+
+    font-family: 'Karla', sans-serif;
+    font-weight: 700;
+    color:#fff5d1;
+    font-size: 15px;
+
+    background:
+            linear-gradient(-45deg, #5691c8 40%, #457fca 0 60%, #5691c8 0) right/300% 100% no-repeat,linear-gradient(-45deg, #5691c8 40%, #457fca 60%, #5691c8 0) right/50% 50% no-repeat;
+    background-clip: text, padding-box;
+    
+/* background-color: rgb(126, 126, 174); */
+border: none;
+border-radius: 4px;
+cursor: pointer;
+
+}
+
+.feedbackBtn:hover {
+background-position: left;
+    transition: 0.8s
+}
